@@ -1,5 +1,7 @@
 package ru.nikolski;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -40,6 +42,7 @@ public class Main {
         System.out.println("true||false = "+ (a || b));
         System.out.println("!true = "+ (!a));
         System.out.println("\"dima\"==\"dima\" = " + ("dima" == dima)); //не получилось false получить
+        String c = (a || b) ? "true" : "false";
 
         //Переполнение
         System.out.println("\nПереполнение");
