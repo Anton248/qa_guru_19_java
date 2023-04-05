@@ -5,17 +5,19 @@ public class Main {
 
         int i = 10;
         double d = 0.9;
-        float f = 0.999F;
+        float f = 0.0999F;
         char ch = 'a';
         boolean a = true;
         boolean b = false;
+        String dima = "dima";
 
-        //Математические операторы
-        System.out.println("Математические операторы");
-        System.out.println("10+'a' = "+i+ch);
+        //Математические операторы и комбинация int и double
+        System.out.println("Математические операторы и комбинация int и double");
+        System.out.println("10+'a' = \""+i+ch + "\"");
         System.out.println("10+'a' = "+(i+ch));
-        System.out.println("10+0.9 = "+i+d);
+        System.out.println("10+0.9 = \""+i+d + "\"");
         System.out.println("10+0.9 = "+(i+d));
+        System.out.println("10+0.9+0.0999F = "+(i+d+f));
         System.out.println("10/0.9 = "+i/d);
         System.out.println("10%0.9 = "+i%d);
         System.out.println("10%3 = "+i%3);
@@ -28,13 +30,14 @@ public class Main {
         System.out.println("10==0.90 = "+(i==d));
         System.out.println("10==10 = "+(i==i));
         System.out.println("10!=10 = "+(i!=i));
-        System.out.println("10>0.90 = "+(i>d));
+        System.out.println("10>0.9 = "+(i>d));
 
         //Логические операторы
         System.out.println("\nЛогические операторы");
         System.out.println("true&&false = "+ (a && b));
         System.out.println("true||false = "+ (a || b));
         System.out.println("!true = "+ (!a));
+        System.out.println("\"dima\"==\"dima\" = " + ("dima" == dima)); //не получилось false получить
 
         //Переполнение
         System.out.println("\nПереполнение");
