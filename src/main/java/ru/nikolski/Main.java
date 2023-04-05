@@ -22,6 +22,8 @@ public class Main {
         System.out.println("10%0.9 = "+i%d);
         System.out.println("10%3 = "+i%3);
         System.out.println("(10/0.9)*0.9 = "+(i/d)*d);
+        int j = (int) d;
+        System.out.println("(int) 0.9 = " + j);
         System.out.println("10++ = " + i++); //инкремент после операции
         System.out.println("++11 = " + ++i); //инкремент до операции
 
