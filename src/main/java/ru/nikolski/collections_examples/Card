@@ -1,1 +1,14 @@
+package ru.nikolski.collections_examples;
 
+public class Card {
+  String accountNumber;
+  String cardSystem;
+  String Owner;
+  String cardNumber;
+  String Cvv;
+  
+  public String getAccountNumber(){
+  return accountNumber
+  }
+  
+}
